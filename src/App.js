@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Controller, Scene } from 'react-scrollmagic';
 
 function App() {
   return (
@@ -18,6 +19,13 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+    <Controller>
+      <Scene duration={600} pin>
+        <div>Sticky Example</div>
+      </Scene>
+    </Controller>
+  </div>
     </div>
   );
 }
