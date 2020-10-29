@@ -1,6 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
-import { Controller, Scene } from 'react-scrollmagic';
+import './css-files/App.css';
+import {Controller, Scene} from "react-scrollmagic";
+import StyleWipe2 from './examples/style-wipes-2.js';
+import Parrallax from './examples/parrallax.js';
+import SplitText from './examples/split-text.js';
+
 
 function App() {
   return (
@@ -19,13 +23,26 @@ function App() {
           Learn React
         </a>
       </header>
-      <div>
-    <Controller>
-      <Scene duration={600} pin>
-        <div>Sticky Example</div>
-      </Scene>
-    </Controller>
-  </div>
+    	<div>
+        <Controller>
+          <Scene duration={600} pin>
+            <div>Sticky Example</div>
+          </Scene>
+          <Scene duration={900} pin>
+            <div>Example 2</div>
+          </Scene>
+         </Controller>
+       </div>
+      <div> 
+        <Controller> 
+          <Scene duration={900} pin>
+            <div>Other</div>
+          </Scene>
+        </Controller>
+      </div>
+    <StyleWipe2></StyleWipe2>
+    <Parrallax></Parrallax>
+    <SplitText></SplitText>
     </div>
   );
 }
