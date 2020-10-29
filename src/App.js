@@ -3,8 +3,8 @@ import './css-files/App.css';
 import {Controller, Scene} from "react-scrollmagic";
 import StyleWipe2 from './examples/style-wipes-2.js';
 import Parrallax from './examples/parrallax.js';
-import SplitText from './examples/split-text.js';
-
+// import SplitText from './examples/split-text.js';
+// import List from './examples/list.js';
 
 function App() {
   return (
@@ -42,7 +42,8 @@ function App() {
       </div>
     <StyleWipe2></StyleWipe2>
     <Parrallax></Parrallax>
-    <SplitText></SplitText>
+    {/* <SplitText></SplitText> */}
+    {/* <List></List> */}
     </div>
   );
 }
