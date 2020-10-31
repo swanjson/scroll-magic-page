@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Back } from 'gsap/EasePack';
-import { Tween, Timeline } from 'react-gsap';
+import { Tween } from 'react-gsap';
 
 const ListStyled = styled.div`
   overflow: hidden;
@@ -27,6 +27,7 @@ const List = () => (
         duration={300}
         offset={300}
         pin
+        indicators={true}
       >
         <Tween
           wrapper={<ul className="devs" />}
@@ -55,6 +56,7 @@ const List = () => (
         duration={300}
         offset={300}
         pin
+        indicators={true}
       >
         <Tween
           wrapper={<ul className="devs2" />}

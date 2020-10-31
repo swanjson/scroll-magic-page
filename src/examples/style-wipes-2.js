@@ -47,6 +47,7 @@ const SectionWipes2 = () => (
         triggerHook="onLeave"
         duration="300%"
         pin
+        indicators={true}
       >
         <Timeline
           wrapper={<div id="pinContainer" />}

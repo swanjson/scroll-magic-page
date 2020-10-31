@@ -32,27 +32,27 @@ const Components = () => (
   <ComponentsStyled>
     <div className="section" />
     <Controller>
-      <Scene duration={600} pin={true}>
+      <Scene duration={600} indicators={true} pin={true}>
         <div>HTML tag</div>
       </Scene>
-      <Scene duration={600} pin={true}>
+      <Scene duration={600} indicators={true} pin={true}>
         <StatelessRef />
       </Scene>
-      <Scene duration={600} pin={true}>
+      <Scene duration={600} indicators={true} pin={true}>
         <StyledDiv>Styled Component</StyledDiv>
       </Scene>
-      <Scene duration={600} pin="#stateless" triggerElement="#stateless">
+      <Scene duration={600} indicators={true} pin="#stateless" triggerElement="#stateless">
         <Stateless>Stateless Component</Stateless>
       </Scene>
-      <Scene duration={600} pin={true}>
+      <Scene duration={600} indicators={true} pin={true}>
         <div>
           <Stateless>Stateless Component wrapped</Stateless>
         </div>
       </Scene>
-      <Scene duration={600} pin="#statelessFragment" triggerElement="#statelessFragment">
+      <Scene duration={600} indicators={true} pin="#statelessFragment" triggerElement="#statelessFragment">
         <StatelessFragment />
       </Scene>
-      <Scene duration={600} pin="#stateful" triggerElement="#stateful">
+      <Scene duration={600} indicators={true} pin="#stateful" triggerElement="#stateful">
         <Stateful />
       </Scene>
     </Controller>

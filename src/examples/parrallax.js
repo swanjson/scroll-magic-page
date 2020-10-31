@@ -29,7 +29,7 @@ const Parallax = () => (
     <Controller>
       <div className="section" />
       <Scene
-        // indicators={true}
+        indicators={true}
         duration="200%"
         triggerHook="onEnter"
       >

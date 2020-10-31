@@ -28,7 +28,7 @@ const SplitText = () => (
     <div className="section" />
     <Controller>
       <Scene
-        pin={false}
+        pin={true}
         reverse={true}
         duration={500}
         offset={-300}        

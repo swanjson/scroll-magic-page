@@ -1,0 +1,49 @@
+.cover {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 999; }
+    #cover #cursor {
+      background: url(../assets/down-arrow-white.png) no-repeat center bottom;
+      bottom: 20px;
+      color: #555;
+      font-size: 1.1em;
+      font-weight: bold;
+      height: 110px;
+      position: absolute;
+      text-align: center;
+      width: 100px;
+      z-index: 1000;
+      left: 50%;
+      margin-left: -50px; }
+    #cover #title_line {
+      position: absolute;
+      z-index: 20;
+      width: 40%;
+      left: 30%;
+      top: 68px;
+      height: 250px; }
+    #cover #coverlogo, #cover #coverline {
+      display: block; }
+    #cover #coverlogo {
+      position: absolute;
+      top: 0;
+      z-index: 100;
+      width: 620px;
+      height: 170px;
+      margin-left: -310px;
+      left: 50%; }
+    #cover #coverline {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -262.5px;
+      z-index: 90;
+      width: 525px;
+      height: 125px; }
+    #cover video {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      left: 0;
+      background: #fff; }

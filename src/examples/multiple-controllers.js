@@ -30,7 +30,7 @@ const MultipleControllers = () => (
     <div id="container1">
       <Controller container="#container1">
         <div className="section" />
-        <Scene duration={600} pin={true}>
+        <Scene duration={600} indicators={true} pin={true}>
           <div className="sticky"><div>Pin Test</div></div>
         </Scene>
         <div className="section" />
@@ -39,7 +39,7 @@ const MultipleControllers = () => (
     <div id="container2">
       <Controller container="#container2">
         <div className="section" />
-        <Scene duration={600} pin={true}>
+        <Scene duration={600} indicators={true} pin={true}>
           <div className="sticky"><div>Pin Test</div></div>
         </Scene>
         <div className="section" />
